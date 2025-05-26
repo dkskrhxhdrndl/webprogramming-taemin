@@ -1,37 +1,56 @@
-<section class="portfolio-section">
-  <h2>포트폴리오</h2>
-
-  <!-- 웹 게시판 시스템 -->
-  <div class="project-card">
-    <h3>웹 게시판 시스템</h3>
-    <p><strong>설명:</strong> Python과 Flask로 구현한 웹 게시판 시스템. MariaDB를 연동하여 사용자/게시글/댓글 데이터를 관리하며, HTML/CSS를 통해 기본적인 UI를 제공합니다.</p>
-    <p><strong>기능:</strong></p>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>포트폴리오</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header><h1>포트폴리오</h1></header>
+  <nav>
     <ul>
-      <li>회원 관리</li>
-      <li>게시글 작성/조회/수정/삭제 (CRUD)</li>
-      <li>댓글 작성 기능</li>
-      <li>페이징, 검색 등 기본 UX</li>
+      <li><a href="index.html">홈</a></li>
+      <li><a href="about.html">자기소개</a></li>
+      <li><a href="portfolio.html">포트폴리오</a></li>
+      <li><a href="resume.html">이력서</a></li>
+      <li><a href="contact.html">연락처</a></li>
     </ul>
-    <p><strong>사용 기술:</strong> Python, Flask, MariaDB, Faker, HTML, CSS</p>
-    <p><strong>역할:</strong> 전체 시스템 설계 및 데이터 생성 자동화 구현</p>
-    <p><strong>성과:</strong> 10,000개 더미 데이터 삽입 성공 / GitHub 페이지에 설명 및 코드 업로드</p>
-    
-  </div>
+  </nav>
+  <main>
+    <section class="portfolio-section">
+      <h2>포트폴리오</h2>
 
-  <!-- Unity 미니게임 -->
-  <div class="project-card">
-    <h3>Unity 미니게임</h3>
-    <p><strong>설명:</strong> Unity 2D 엔진을 활용한 타워 디펜스 스타일의 미니게임 구현. 유닛 배치, 웨이브 생성, 체력 및 점수 시스템을 포함.</p>
-    <p><strong>기능:</strong></p>
-    <ul>
-      <li>2D 유닛 생성 및 배치</li>
-      <li>적 웨이브 출현 및 전투 시스템</li>
-      <li>HP/점수/게임오버 UI 구현</li>
-      <li>기본 게임 룰 및 밸런싱</li>
-    </ul>
-    <p><strong>사용 기술:</strong> Unity 6, C#, Photoshop (UI 디자인 일부)</p>
-    <p><strong>역할:</strong> 전체 게임 시스템 기획 및 구현</p>
-    <p><strong>성과:</strong> Unity 학습 기반으로 기초 게임 시스템 직접 제작 </p>
-    
-  </div>
-</section>
+      <div class="project-card">
+        <h3>웹 게시판 시스템(조별과제)</h3>
+        <p><strong>설명:</strong> Python과 Flask로 구현한 웹 게시판 시스템. MariaDB를 연동하여 사용자/게시글/댓글 데이터를 관리하며, HTML/CSS를 통해 기본적인 UI를 제공합니다.</p>
+        <p><strong>기능:</strong></p>
+        <ul>
+          <li>회원 관리</li>
+          <li>게시글 작성/조회/수정/삭제 (CRUD)</li>
+          <li>댓글 작성 기능</li>
+          <li>페이징, 검색 등 기본 UX</li>
+        </ul>
+        <p><strong>사용 기술:</strong> Python, Flask, MariaDB, Faker, HTML, CSS</p>
+        <p><strong>역할:</strong> 전체 시스템 설계 및 데이터 생성 자동화 구현</p>
+        <p><strong>성과:</strong> 10,000개 더미 데이터 삽입 성공 </p>
+      </div>
+
+      <div class="project-card">
+        <h3>Unity에서 유명한 게임 따라하기</h3>
+        <p><strong>설명:</strong> Unity 2D 엔진을 활용한 타워 디펜스 스타일의 미니게임 구현. 유닛 배치, 웨이브 생성, 체력 및 점수 시스템을 포함.</p>
+        <p><strong>기능:</strong></p>
+        <ul>
+          <li>2D 유닛 생성 및 배치</li>
+          <li>적 웨이브 출현 및 전투 시스템</li>
+          <li>HP/점수/게임오버 UI 구현</li>
+          <li>기본 게임 룰 및 밸런싱</li>
+        </ul>
+        <p><strong>사용 기술:</strong> Unity 6, C#, Photoshop (UI 디자인 일부)</p>
+        <p><strong>역할:</strong> 전체 게임 시스템 기획 및 구현</p>
+        <p><strong>성과:</strong> Unity 학습 기반으로 기초 게임 시스템 직접 제작 </p>
+      </div>
+    </section>
+  </main>
+  <footer><p>&copy; 2025 류태민</p></footer>
+</body>
+</html>
